@@ -9,5 +9,6 @@
 | nnm install -g @angular/cli                         | instalar @angular/cli              |
 |ng new mi-primer-angular --standalone --routing --styles=css | creación de proyectos en angular| 
 | ng serve - 0                                        | corre el servidor y abre navegador|
-| ng generate service service/user.service/user.service | para crear un servicio 
-
+| ng generate service service/user.service/user.service |para crear un servicio|
+|ng generate component view/user/user.component       |generamos viste de usuario intalar bootstrap|
+|npm i bootstrap@5.3.8 |

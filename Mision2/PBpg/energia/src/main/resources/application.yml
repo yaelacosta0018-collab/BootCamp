@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/java_gip346c
+    url: jdbc:postgresql://localhost:5432/semillero
     username: postgres
-    password: XXXXX
+    password: 12345
   jpa:
     hibernate:
       ddl-auto: update
@@ -13,4 +13,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 server:
   port: 8080 
+  error:
+    include-message: always
 
